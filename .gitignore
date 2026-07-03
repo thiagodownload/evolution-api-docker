@@ -1,0 +1,21 @@
+.env
+*.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Docker/local
+docker-compose.override.yml
+
+# Pastas locais, caso existam
+instances/
+evolution_instances/
+postgres_data/
+redis_data/
+
+# Sistema/editor
+.DS_Store
+.vscode/
+.idea/
